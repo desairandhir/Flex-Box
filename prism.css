@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+   }
+body{
+    background: rgb(69,66,122);
+    background: linear-gradient(90deg, rgba(69,66,122,1) 0%, rgba(98,47,102,1) 100%);    
+}
+.header{
+    /* border: 1px solid; */
+    height: 100px;
+    position: relative;
+}
+.logo{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.nav{
+    height: 100px;
+    width: 400px;
+    float: right;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    color: #00BC8A;
+}
+.parent{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.child{
+    height: 190px;
+    width: 50%;
+    justify-content: center;
+}
+#child1{
+    border: 1px solid;
+    border-color: #FFFFFF80;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+.child h1{
+    font-size: 30px;
+    padding: 0px 80px;
+    color: white;
+    line-height: 1.8;
+}
+.child p{
+    padding: 0 50px;
+    line-height: 35px;
+    color: #FFFFFF80;
+}
+.child a{
+    background-color: #00BC8A;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+#btn{
+    margin: 25px 50px;
+}
+#btn a{
+    color: white;
+}
