@@ -11,9 +11,7 @@ body{
     background: linear-gradient(90deg, rgba(69,66,122,1) 0%, rgba(98,47,102,1) 100%);    
 }
 .header{
-    /* border: 1px solid; */
     height: 100px;
-    position: relative;
 }
 .logo{
     color: #ffffff;
@@ -48,8 +46,7 @@ a{
     justify-content: center;
 }
 #child1{
-    border: 1px solid;
-    border-color: #FFFFFF80;
+    border: 1px solid #FFFFFF80;
     border-left: none;
     border-top: none;
     border-bottom: none;
