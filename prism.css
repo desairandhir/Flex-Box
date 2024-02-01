@@ -12,8 +12,7 @@ body{
 }
 .header{
     height: 100px;
-    display: flex;
-    justify-content: space-between;
+    position: relative;
 }
 .logo{
     color: #ffffff;
@@ -47,8 +46,7 @@ a{
     justify-content: center;
 }
 #child1{
-    border: 1px solid;
-    border-color: #FFFFFF80;
+    border: 1px solid #FFFFFF80;
     border-left: none;
     border-top: none;
     border-bottom: none;
