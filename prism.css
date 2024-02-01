@@ -11,9 +11,9 @@ body{
     background: linear-gradient(90deg, rgba(69,66,122,1) 0%, rgba(98,47,102,1) 100%);    
 }
 .header{
-    /* border: 1px solid; */
     height: 100px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 .logo{
     color: #ffffff;
@@ -25,7 +25,6 @@ body{
 .nav{
     height: 100px;
     width: 400px;
-    float: right;
     margin-right: 10%;
     display: flex;
     justify-content: space-evenly;
